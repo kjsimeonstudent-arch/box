@@ -10,7 +10,7 @@ function App() {
      <div id="root">
         <div className="header">
             <h1>Ken-zhin Simeon</h1>
-            <div id="rectangle">PEITEL</div>
+            <div id="rectangle">CPEITEL</div>
         </div>
     </div>
   )
