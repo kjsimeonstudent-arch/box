@@ -7,13 +7,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-     <div id="root">
-        <div className="header">
-            <h1>Ken-zhin Simeon</h1>
-            <div id="rectangle">CPEITEL</div>
-        </div>
-    </div>
+    const Header = ({ surname }) => <header><h1>Ken-zhin Simeon {surname}!</h1></header>;
   )
 }
 
+export default Header;
 export default App
