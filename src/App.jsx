@@ -7,7 +7,7 @@ import './App.css'
 const Header = ({ surname }) => {
   return (
     <header>
-      <h1>{surname}!</h1>
+      <h1>{surname}</h1>
     </header>
   );
 };
