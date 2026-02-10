@@ -6,10 +6,35 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  // Header Component
+const Header = ({ surname }) => {
   return (
-    const Header = ({ surname }) => <header><h1>Ken-zhin Simeon {surname}!</h1></header>;
-  )
-}
+    <header>
+      <h1>{surname}!</h1>
+    </header>
+  );
+};
 
-export default Header;
+// Box Component
+const Box = ({ subjectCode }) => {
+  return (
+    <div className="box">
+      <p>{subjectCode}</p>
+    </div>
+  );
+};
+
+const App = () => {
+  const surname = "Ken-zhin Simeon";
+  const subjectCode = "CPEITEL3"; 
+
+  return (
+    <div>
+      <Header surname={surname} />
+      <Box subjectCode={subjectCode} />
+    </div>
+  );
+};
+
+export default App;
 export default App
