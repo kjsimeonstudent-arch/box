@@ -1,9 +1,5 @@
-#rectangle{
-    margin: auto;
-    width: 200px;
-    height: 200px;
-    background: pink;
-    text-align: center;
-    border: 3px solid black;
-    padding-top: 80px;
+.box {
+  background-color: #FFC0CB;
+  text-align: center;
+  padding: 20px;
 }
