@@ -15,9 +15,7 @@ const Header = ({ surname }) => {
 // Box Component
 const Box = ({ subjectCode }) => {
   return (
-    <div className="box">
-      <p>{subjectCode}</p>
-    </div>
+    <div className="box">{subjectCode}</div>
   );
 };
 
